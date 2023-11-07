@@ -17,7 +17,7 @@
 15. Pilih Aplication (trace and calls) pada data source ![gambar 12](asset/widget4.png)
 16. Pilih latency pada Metrics ![gambar 13](asset/widget9.png)
 17. Pilih mean pada Aggregation ![gambar 14](asset/widget10.png)
-18. Kemudian setelah itu masukkan filter zone dan masukkan nama dataset
-19. Setting Primary Y-Axis dengan memilih chart bar dan formatter number
+18. Kemudian setelah itu masukkan filter zone dan masukkan nama dataset ![gambar 15](asset/widget7.png)
+19. Setting Primary Y-Axis dengan memilih chart bar dan formatter number ![gambar 16](asset/widget11.png) ![gambar 17](asset/widget12.png)
 20. Setting Secondary Y-Axis dengan memilih chart area dan formatter latency
 21. Terakhir Isikan nama Widget
