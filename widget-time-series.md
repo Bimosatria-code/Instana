@@ -1,13 +1,13 @@
 # Create Dashboard Custom Time Series
 
-1. Pilih Instana di menu kiri  ![gambar 1](asset/widget1.png)
-2. Kemudian Create Dashboard  ![gambar 2](asset/widget2.png)
+1. Pilih Instana di menu kiri ![gambar 1](asset/widget1.png)
+2. Kemudian Create Dashboard ![gambar 2](asset/widget2.png)
 3. Kemudian Add Widget ![gambar 3](asset/widget3.png)
-4. Setelah itu pilih chart: time series lalu klik next
-5. Pilih Aplication (trace and calls) pada data source
-6. Pilih Calls pada Metrics
-7. Pilih sum pada Aggregation
-8. Kemudian setelah itu masukkan filter zone dan masukkan nama dataset
+4. Setelah itu pilih chart: time series lalu klik next ![gambar 4](asset/widget4.png)
+5. Pilih Aplication (trace and calls) pada data source ![gambar 5](asset/widget5.png)
+6. Pilih Calls pada Metrics ![gambar 6](asset/widget6.png)
+7. Pilih sum pada Aggregation ![gambar 7](asset/widget7.png)
+8. Kemudian setelah itu masukkan filter zone dan masukkan nama dataset ![gambar 8](asset/widget8.png)
 9. Add dataset
 10. Pilih Aplication (trace and calls) pada data source
 11. Pilih Calls pada Metrics
