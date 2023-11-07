@@ -1,6 +1,6 @@
 # Create Dashboard Custom Time Series
 
-1. Pilih Instana di menu kiri  ![gambar 1](widget1.png)
+1. Pilih Instana di menu kiri  ![gambar 1](asset/widget1.png)
 2. Kemudian Create Dashboard  
 3. Kemudian Add Widget
 4. Setelah itu pilih chart: time series lalu klik next
