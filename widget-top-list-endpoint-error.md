@@ -5,4 +5,5 @@
 3. Pilih Calls pada Metrics ![gambar 2](asset/widget5.png)
 4. Pilih sum pada Aggregation ![gambar 3](asset/widget6.png)
 5. Kemudian setelah itu masukkan filter zone dan filter calls error ![gambar 4](asset/widget8.png)
-6. Lalu Masukkan Group data Endpoint
+6. Lalu Masukkan Group data Endpoint dan top 10 ![gambar 5](asset/widget16.png)
+7. Terakhir masukkan nama widgetnya
