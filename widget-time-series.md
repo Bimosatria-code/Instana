@@ -1,8 +1,8 @@
 # Create Dashboard Custom Time Series
 
 1. Pilih Instana di menu kiri  ![gambar 1](asset/widget1.png)
-2. Kemudian Create Dashboard  
-3. Kemudian Add Widget
+2. Kemudian Create Dashboard  ![gambar 2](asset/widget2.png)
+3. Kemudian Add Widget ![gambar 3](asset/widget3.png)
 4. Setelah itu pilih chart: time series lalu klik next
 5. Pilih Aplication (trace and calls) pada data source
 6. Pilih Calls pada Metrics
