@@ -14,8 +14,8 @@
 12. Pilih sum pada Aggregation ![gambar 10](asset/widget6.png)
 13. Kemudian setelah itu masukkan filter zone dan filter calls error, lalu masukkan nama dataset ![gambar 11](asset/widget8.png)
 14. Add dataset
-15. Pilih Aplication (trace and calls) pada data source
-16. Pilih latency pada Metrics
+15. Pilih Aplication (trace and calls) pada data source ![gambar 12](asset/widget4.png)
+16. Pilih latency pada Metrics ![gambar 13](asset/widget9.png)
 17. Pilih mean pada Aggregation
 18. Kemudian setelah itu masukkan filter zone dan masukkan nama dataset
 19. Setting Primary Y-Axis dengan memilih chart bar dan formatter number
