@@ -1,0 +1,40 @@
+---
+- name: Install and configure Instana Agent on all servers
+  hosts: servers
+  become: yes
+  tasks:
+    - name: Install curl
+      apt:
+        name: curl
+        state: present
+
+    - name: Download Instana setup script
+      command: curl -o setup_agent.sh https://setup.instana.io/agent
+      args:
+        creates: setup_agent.sh
+
+    - name: Make the setup script executable
+      file:
+        path: ./setup_agent.sh
+        mode: '0700'
+        state: file
+
+    - name: Run Instana setup script
+      command: ./setup_agent.sh -a O_xPXPnaToa9ZpkiPG0Elg -d O_xPXPnaToa9ZpkiPG0Elg -t dynamic -e ingress-orange-saas.instana.io:443 -y -s
+      args:
+        chdir: .
+
+    #- name: Set INSTANA_ZONE environment variable
+    #  shell: echo 'INSTANA_ZONE="TestAgentServer"' >> /etc/environment
+
+    - name: Create Instana configuration file
+      copy:
+        dest: /opt/instana/agent/etc/instana/configuration-zone.yaml
+        content: |
+          # Hardware & Zone
+          com.instana.plugin.generic.hardware:
+            enabled: true
+            availability-zone: "TechAgentServer"
+
+    - name: Reload systemd daemon
+      command: sudo systemctl daemon-reload
