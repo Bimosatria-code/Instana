@@ -1,6 +1,6 @@
 # Install Instana Server Airgapped
 
-1. Download instana-server dengan menjalankan “**[https://_](https://_/):(download-key)@packages.instana.io/agent/download” dibrowser**
+1. Download instana-server dengan menjalankan “**[https://_](https://_/):(download-key)@packages.instana.io/airgapped/” dibrowser**
 2. Kemudian setelah didownload copy file ke dalam server
 3. Sebelum kita mengextract kita buat directory dengan command “**sudo mkdir /mnt/{data,metrics,traces}**”
 4. Setelah itu Extract file didalam server dan masuk kedirectory docker-installer
